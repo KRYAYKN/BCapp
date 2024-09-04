@@ -1,7 +1,7 @@
 {
-  "id": "cc5c9eaf-913b-4f23-b43a-054e81f32dd8",
-  "name": "app1",
-  "publisher": "KRYAYKN",
+  "id": "1c1a6344-5bab-4687-8ef0-75d60486b7fc",
+  "name": "BCapp",
+  "publisher": "Default Publisher",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -20,12 +20,12 @@
       "to": 97000
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "features": [
+    "NoImplicitWith"
+  ]
 }
